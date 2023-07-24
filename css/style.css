@@ -180,6 +180,12 @@ header .menu-right ul li:hover {
 .part-right {
   width: 70%;
   float: left;
+  padding-top: 80px;
+}
+
+.part-right img {
+  width: 780px;
+  height: 460px;
 }
 
 
