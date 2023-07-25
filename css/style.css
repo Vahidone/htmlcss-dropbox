@@ -525,7 +525,48 @@ header .menu-right ul li:hover {
 
 .panel p {
   color: black
+}
 
+
+
+
+
+
+/* FOOTER  */
+
+footer {
+  width: 100%;
+  background-color: black;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+
+
+footer .container-big .column {
+  width: calc(100% / 5);
+  color: white;
+}
+
+footer .container-big .column h2 {
+  margin-bottom: 40px;
+}
+
+footer .container-big .column ul li {
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+footer .container-big .column ul li:hover {
+  text-decoration: underline;
+}
+
+
+footer .container-big .column ul hr {
+  width: 120px;
+  color: gray;
+  margin-top: 120px;
+  margin-bottom: 60px;
 }
 
 
