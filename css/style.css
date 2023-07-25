@@ -426,6 +426,7 @@ header .menu-right ul li:hover {
   padding: 40px;
 }
 
+
 .side-logo.center  hr {
   width: 55px;
 }
@@ -433,6 +434,13 @@ header .menu-right ul li:hover {
 .side-logo.center img {
   width: 260px;
   margin-bottom: 45px;
+}
+
+.side-logo.center:hover {
+  scale: 1.01;
+  transition: .4s;
+  background-color: rgba(211, 211, 211, 0.526);
+  cursor: pointer;
 }
 
 .side-logo.center p:nth-child(3) {
@@ -445,6 +453,12 @@ header .menu-right ul li:hover {
   height: calc(100% / 2);
   justify-content: center;
   align-items: center;
+}
+
+.card-logo:hover {
+  border: 15px solid rgba(255, 255, 255, 0.3);
+  cursor: pointer;
+ 
 }
 .card-logo img {
   width: 160px;
