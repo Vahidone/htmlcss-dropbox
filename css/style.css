@@ -99,9 +99,14 @@ ul {
 /* HEADER  */
 
 header {
+  width: 100%;
   height: 100px;
   padding: 0 20px;
   justify-content: space-between;
+  position: fixed;
+  z-index: 999;
+  top: 0;
+  background-color: white;
 }
 .menu-left, .menu-right {
   width: 600px;
@@ -162,6 +167,7 @@ header .menu-right ul li:hover {
   height: 740px;
   background-color: #B3CFE7;
   padding-top: 110px;
+  margin-top: 100px;
 }
 
 .container-big h1{
@@ -184,14 +190,16 @@ header .menu-right ul li:hover {
 }
 .part-left button {
   margin-bottom: 40px;
+  margin-left: 0;
+  padding: 15px 15px;
 }
 
 #freccia {
-  margin-top: 70px;
-  margin-bottom: 20px;
+  margin-top: 60px;
   font-size: 2.7rem;
   font-weight: bold;
 }
+
 .part-right {
   width: 70%;
   float: left;
