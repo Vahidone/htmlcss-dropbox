@@ -369,6 +369,39 @@ header .menu-right ul li:hover {
 
 
 
+/* SECTION OPERAZIONI  */
+
+.operazioni {
+  flex-wrap: wrap;
+  margin-top: 160px;
+}
+.operazioni h1 {
+  margin-bottom: 30px;
+}
+.card {
+  width: calc(100% / 3);
+}
+
+.operazioni .card img {
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.operazioni .card h3 {
+  margin-bottom: 30px;
+}
+
+.operazioni .card p {
+  margin-bottom: 80px;
+}
+
+
+
+
+
+
+
 
 
 
