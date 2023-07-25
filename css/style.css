@@ -283,6 +283,12 @@ header .menu-right ul li:hover {
   padding: 10px 30px;
 }
 
+#special-buttom {
+  margin-top: 50px;
+  margin-bottom: 25px;
+  padding: 10px 82px;
+}
+
 .col-body hr {
   width: 40px;
   margin-top: 30px;
@@ -303,7 +309,7 @@ header .menu-right ul li:hover {
   height: 40px;
   text-align: center;
   line-height: 40px;
-  border: 1px solid grey;
+  border-bottom: 1px solid grey;
 
 }
 
@@ -320,6 +326,7 @@ header .menu-right ul li:hover {
 
 .col-horizontal-body button {
   float: right;
+  padding: 10px 34px;
 }
 
 .col-horizontal-body p:nth-child(3) {
@@ -487,6 +494,7 @@ header .menu-right ul li:hover {
   margin-top: 0px;
   background-color: white;
   color: black;
+  padding: 13px 55px;
 }
 
 .prova .container-small h1 {
