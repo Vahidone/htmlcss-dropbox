@@ -286,7 +286,6 @@ header .menu-right ul li:hover {
   width: 40px;
   margin-top: 30px;
   margin-bottom: 40px;
-  border: 1px solid rgb(134, 132, 132);
 }
 
 .col-body h5 {
@@ -406,6 +405,52 @@ header .menu-right ul li:hover {
 .team h1 {
   margin-bottom: 80px;
 }
+
+
+
+/* SECTION COMPANIES LOGO  */
+
+.companies-logo {
+  width: 100%;
+  margin-top: 155px;
+}
+
+.side-logo {
+  width: calc(100% / 3);
+  height: 618px;
+  flex-flow: row wrap;
+}
+
+.side-logo.center {
+  padding: 40px;
+}
+
+.side-logo.center  hr {
+  width: 55px;
+}
+
+.side-logo.center img {
+  width: 260px;
+  margin-bottom: 45px;
+}
+
+.side-logo.center p:nth-child(3) {
+  margin-top: 45px;
+  margin-bottom: 60px;
+}
+
+.card-logo {
+  width: calc(100% / 2);
+  height: calc(100% / 2);
+  justify-content: center;
+  align-items: center;
+}
+.card-logo img {
+  width: 160px;
+  color: white
+}
+
+
 
 
 
