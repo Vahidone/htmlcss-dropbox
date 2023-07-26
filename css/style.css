@@ -159,7 +159,6 @@ header .menu-right ul li:hover {
 
 
 
-
 /* JUMBOTRON  */
 
 .jumbotron {
@@ -304,6 +303,8 @@ header .menu-right ul li:hover {
 }
 
 .col-body h5 {
+  font-size: 16px;
+  font-weight: bold;
   margin-bottom: 30px;
 }
 
@@ -409,6 +410,8 @@ header .menu-right ul li:hover {
 }
 
 .operazioni .card h3 {
+  font-size: 25px;
+  font-weight: bold;
   margin-bottom: 30px;
 }
 
@@ -434,13 +437,14 @@ header .menu-right ul li:hover {
 /* SECTION COMPANIES LOGO  */
 
 .companies-logo {
-  width: 100%;
+  width: 100vw;
+  height: calc(100vw / 3);
   margin-top: 155px;
 }
 
 .side-logo {
   width: calc(100% / 3);
-  height: 618px;
+  height: 100%;
   flex-flow: row wrap;
 }
 
@@ -477,7 +481,7 @@ header .menu-right ul li:hover {
   align-items: center;
 }
 
-.card-logo:hover {
+.card-logo:hover, .active {
   border: 15px solid rgba(255, 255, 255, 0.3);
   cursor: pointer;
  
@@ -613,6 +617,8 @@ footer .container-big .column ul hr {
   margin-top: 120px;
   margin-bottom: 60px;
 }
+
+
 
 
 
