@@ -539,7 +539,7 @@ header .menu-right ul li:hover {
 /* SECTION FAQ  */
 
 .faq-section {
-  height: 568px;
+  height: 588px;
   background-color: white;
 }
 .faq-section h1 {
@@ -560,32 +560,32 @@ header .menu-right ul li:hover {
   font-weight: bold;
   cursor: pointer;
   position: relative;
-  border-bottom: 1px solid grey;
   padding: 40px 0px 40px 0px;
- }
-
- .faq-section .container-small div:first-child {
   border-top: 1px solid grey;
  }
+
+ .faq-section .container-small div:last-child .acc-label{
+  border-bottom: 1px solid grey;
+ }
+
 
  .acc-label:hover {
   background-color: rgb(245, 243, 243)
  }
 
-
-
+ 
  .acc-label::after {
   content: '+';
   color: black;
   position: absolute;
   right: 20px;
-  font-size: medium;
+  font-size: large;
   font-weight: bold;
  }
 
  .acc-input:checked ~ .acc-label::after {
   content: '-';
-  font-size: medium;
+  font-size: large;
   font-weight: bold;
  }
 
@@ -595,12 +595,15 @@ header .menu-right ul li:hover {
   background-color: #fff;
   line-height: 2rem;
   font-size: 1rem;
+ 
+  
  }
 
  .acc-input:checked ~ .acc-content {
   width: auto;
   height: auto;
   opacity: 9;
+  
  }
 
  .acc-input:checked ~ .acc-content p {
