@@ -127,9 +127,7 @@ header .menu-left ul li {
   cursor: pointer;
   margin-left: 30px;
 }
-header .menu-left ul li:hover {
-  text-decoration: underline;
-}
+
 header .menu-left ul li:first-child {
   margin-left: 0;
   margin-top: 6px;
@@ -148,9 +146,23 @@ header .menu-right ul li {
   margin-left: 30px;
 }
 
-header .menu-right ul li:hover {
-  text-decoration: underline;
+header .menu-right ul li a {
+  text-decoration: none;
+  color: black;
 }
+
+header .menu-left ul li a {
+   text-decoration: none;
+  color: black;
+}
+
+header .menu-left ul li a:hover,
+header .menu-right ul li a:hover {
+  text-decoration: underline;
+  text-underline-offset: 2.7rem;
+}
+
+
 .menu-right ul li button {
   margin-top: 32px;
 }
